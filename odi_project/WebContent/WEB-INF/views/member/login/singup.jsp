@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -13,7 +14,6 @@
      <script src="WebContent/source/js/loginjs//address.js"></script>
     <!-- 주소 api -->
      <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-
      <script src="WebContent/source/js/loginjs/singup.js"></script>
 </head>
 

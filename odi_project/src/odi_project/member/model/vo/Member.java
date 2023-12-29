@@ -2,6 +2,9 @@ package odi_project.member.model.vo;
 
 import java.sql.Date;
 
+import lombok.Getter;
+
+@Getter
 public class Member {
 	
 	/*
@@ -30,6 +33,8 @@ public class Member {
 	private int memberAccess;	// 회원권환
 	private Date createDate;	//회원가입일
 	private String status;		//회원삭제여부
+	private String memberName;  // 회원이름
+	private String phone; 		// 핸드폰
 	
 
 }

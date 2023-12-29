@@ -1,12 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/index.css" rel="stylesheet">
+    <link href="./source/style/css/hyeon.css/index.css" rel="stylesheet">
     <!-- JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="./source/js/hyeon.js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-huqMRGhIr5W6eK4QAz2iIJ/oAnKPe15Gw2wr5UBZMyORg8Ic0cn4H3ot5iivkGMS8aYIWD/xY4BBdMK8VHiNuw==" crossorigin="anonymous"></script>
     <title>index</title>
 </head>
@@ -16,11 +18,11 @@
         <section class="section-intro">
   
             <div class="intro-item-title">
-                <img src="./images/index_img/logo_index-removebg-preview.png">
+                <img src="./source/style/img/index_img/logo_index-removebg-preview.png">
             </div>
             <div class="intro-item-logo">
                 <div class="intro-right-log">
-                    <img src="./images/index_img/ODIGAJI-1_.png" id="index_logo">
+                    <img src="./source/style/img/index_img/ODIGAJI-1_.png" id="index_logo">
                 </div>
                 
                 <div class="intro-itme-wiget">
@@ -109,10 +111,10 @@
             
             <div id="introduce-Seoul" class="introduce-travel-index">
                 <div class="introduce-img-container">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
                 </div>
                 <div class="introduce-content-container">
                     <h3>서울</h3>
@@ -126,10 +128,10 @@
 
             <div id="introduce-Gyeonggido" class="introduce-travel-index">
                 <div class="introduce-img-container">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
                 </div>
                 <div class="introduce-content-container">
                     <h3>경기도</h3>
@@ -144,10 +146,10 @@
 
             <div id="introduce-Gangwondo" class="introduce-travel-index">
                 <div class="introduce-img-container">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
                 </div>
                 <div class="introduce-content-container">
                     <h3>강원도</h3>
@@ -161,10 +163,10 @@
 
             <div id="introduce-Chungcheongdo" class="introduce-travel-index">
                 <div class="introduce-img-container">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
                 </div>
                 <div class="introduce-content-container">
                     <h3>충청도</h3>
@@ -180,10 +182,10 @@
 
             <div id="introduce-Gyeongsangdo" class="introduce-travel-index">
                 <div class="introduce-img-container">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
                 </div>
                 <div class="introduce-content-container">
                     <h3>경상도</h3>
@@ -197,10 +199,10 @@
 
             <div id="introduce-Jeollado" class="introduce-travel-index">
                 <div class="introduce-img-container">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.pngg">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
                 </div>
                 <div class="introduce-content-container">
                     <h3>전라도</h3>
@@ -216,10 +218,10 @@
 
             <div id="introduce-Jeju" class="introduce-travel-index">
                 <div class="introduce-img-container">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
-                    <img class="introduce-img" src="./images/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
+                    <img class="introduce-img" src="./source/style/img/index_img/odigaji_logo.png">
                 </div>
                 <div class="introduce-content-container">
                     <h3>제주도</h3>

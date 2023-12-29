@@ -2,9 +2,11 @@
     background-color: white;
     max-width: 1900px;
     height: 100%;
-    margin-top: 6.7%;
-    margin-left: 12.6%;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
+
 
 .mainthema {
     display: flex;
@@ -25,6 +27,7 @@ table, th, tr,td {
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    height: 60px;
 }
 
 #keyword {
@@ -43,6 +46,14 @@ table, th, tr,td {
     margin-top: 2%;
     display: flex;
     justify-content: center;
+}
+
+.paging-area a{
+    color: rgb(87, 78, 92);
+}
+
+.bottom-area {
+    background-color: rgba(155, 74, 155, 0.226); 
 }
 
 thead {

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,8 +29,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <!-- css -->
-  <link rel="stylesheet" href="basictool.css">
-  <link rel="stylesheet" href="noticeboardlistview.css">
+  <link rel="stylesheet" href="./source/style/css/jin.css/basictool.css">
+  <link rel="stylesheet" href="./source/style/css/jin.css/noticeboardlistview.css">
 </head>
 <body>
   <!--HEADER-->

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -159,18 +161,6 @@
         <h1>일반게시판</h1>
     </div>
     <hr>
-    <div class="search-area">
-			<form action="search.bo" method="get">
-				<input type="hidden" name="currentPage" value="1" /> 
-        <select name="condition">
-					<option value="writer">작성자</option>
-					<option value="title">제목</option>
-					<option value="content">내용</option>
-				</select> 
-        <input type="text" name="keyword" id="keyword" value="" placeholder="검색할 내용을 입력해주세요.">
-				<button id="searchbtn">검색</button>
-			</form>
-		</div>
 
     <div class="listarea">
       <table class="list-area">
@@ -199,19 +189,35 @@
       </table>
     </div>
 
-    <div class="paging-area">
-			<c:if test="${pi.currentPage ne 1 }">
-				<a href="list.bo?currentPage=${pi.currentPage-1 }">[이전]</a>
-			</c:if>
-
-			<c:forEach var="p" begin="${pi.startPage }" end="${pi.endPage}">
-				<a href="list.bo?currentPage=${p }">[${p}]</a>
-			</c:forEach>
-
-			<c:if test="${pi.currentPage ne pi.maxPage }">
-				<a href="list.bo?currentPage=${pi.currentPage+1 }">[다음]</a>
-			</c:if>
-		</div>
+    <div class="bottom-area">
+      
+      <div class="paging-area">
+        <c:if test="${pi.currentPage ne 1 }">
+          <a href="list.bo?currentPage=${pi.currentPage-1 }">[이전]</a>
+        </c:if>
+  
+        <c:forEach var="p" begin="${pi.startPage }" end="${pi.endPage}">
+          <a href="list.bo?currentPage=${p }">[${p}]</a>
+        </c:forEach>
+  
+        <c:if test="${pi.currentPage ne pi.maxPage }">
+          <a href="list.bo?currentPage=${pi.currentPage+1 }">[다음]</a>
+        </c:if>
+      </div>
+  
+      <div class="search-area">
+        <form action="search.bo" method="get">
+          <input type="hidden" name="currentPage" value="1" /> 
+          <select name="condition">
+            <option value="writer">작성자</option>
+            <option value="title">제목</option>
+            <option value="content">내용</option>
+          </select> 
+          <input type="text" name="keyword" id="keyword" value="" placeholder="검색할 내용을 입력해주세요.">
+          <button id="searchbtn">검색</button>
+        </form>
+      </div>
+    </div>
 
     
   </div>

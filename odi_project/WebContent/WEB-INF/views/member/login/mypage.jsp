@@ -1,6 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <!-- 메타 태그 -->
     <meta charset="UTF-8">
@@ -10,14 +11,11 @@
     <link rel="stylesheet" href="WebContent/source/style/css/mypage.css">
      <!-- jquery -->
      <script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
-     <script src="/WebContent/source/js/loginjs/address.js"></script>
+     <script src="/front/login/js/address.js"></script>
     <!-- 주소 api -->
-     <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-
-     <script src="WebContent/source/js/loginjs/mypage.js"></script>
-
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="WebContent/source/js/loginjs/mypage.js"></script>
 </head>
-
 <body>
 
     <!-- 헤더 -->

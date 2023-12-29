@@ -1,13 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>아이디/비밀번호 찾기</title>
-    <link rel="stylesheet" href="WebContent/source/style/css/idfind.css">
-   <!-- <script src="js/idfind.js"></script> -->
-   <script src="WebContent/source/js/loginjs/idfind.js"></script> 
+    <link rel="stylesheet" href="source/style/css/gun.css/idfind.css">
+    <!-- <script src="js/idfind.js"></script> -->
+    <script src="source/js/loginjs/idfind.js"></script> 
 </head>
 
 <body>

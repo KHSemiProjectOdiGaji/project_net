@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- 파비콘 -->
+  <!-- íë¹ì½ -->
+  <link rel="shortcut icon" href="./images/tomorrow1.gif">
+  !-- 파비콘 -->
   <link rel="shortcut icon" href="./images/tomorrow1.gif">
   <title>Odigaji</title>
 

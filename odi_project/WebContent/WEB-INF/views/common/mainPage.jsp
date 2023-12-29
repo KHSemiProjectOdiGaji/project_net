@@ -1,10 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 파비콘 -->
+<meta charset="UTF-8">
+<!-- 파비콘 -->
   <link rel="shortcut icon" href="./images/tomorrow1.gif">
   <title>Odigaji</title>
 
@@ -42,7 +42,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-  <!--HEADER-->
+<!--HEADER-->
   <header>
     <div class="inner">
       <a href="/" class="logo">

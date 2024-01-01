@@ -52,9 +52,6 @@
         <label for="password">비밀번호</label>
         <input type="password" id="password" name="password" required>
 
-        <!-- 비밀번호 확인 입력 부분 -->
-        <label for="confirmPassword">비밀번호 확인</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required>
 
         <!-- 이름 입력 부분 -->
         <label for="name">이름</label>

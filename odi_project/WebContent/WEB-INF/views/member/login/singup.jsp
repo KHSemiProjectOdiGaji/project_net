@@ -27,13 +27,13 @@
     <br><br>
 
     <!-- 회원가입 폼 -->
-    <form>
+    <form action="singup.me" method="post">
        <!-- 프로필 이미지 업로드 부분 -->
     <label for="profileImageLabel" id="profileImageLabel">
         <img id="profilePreview" alt="">
     </label>
     <br>
-    <input type="file" id="profileImage" name="profileImage" accept="image/*" style="display: none;">
+    <input type="file" id="memberProfile" name="profileImage" accept="image/*" style="display: none;">
 
     <!-- 프로필 등록 버튼 -->
     <button id="btn_2">프로필 등록</button>
@@ -47,19 +47,19 @@
          <br>
         <!-- 아이디 입력 부분 -->
         <label for="username">아이디</label>
-        <input type="text" id="username" name="username" required>
+        <input type="text" id="memberId" name="username" required>
 
         <!-- 비밀번호 입력 부분 -->
         <label for="password">비밀번호</label>
-        <input type="password" id="password" name="password" required>
-
+        <input type="password" id="memberPwd" name="password" required>
+        
         <!-- 비밀번호 확인 입력 부분 -->
         <label for="confirmPassword">비밀번호 확인</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <input type="password" id="memberPwdCheck" name="confirmPassword" required>
 
         <!-- 이름 입력 부분 -->
         <label for="name">이름</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="memberName" name="name" required>
 
         <!-- 휴대폰 입력 부분 -->
         <label for="phone">휴대폰</label>
@@ -89,10 +89,14 @@
         <input type="text" id="address" placeholder="주소"><br>
         <input type="text" id="detailAddress" placeholder="상세주소"><br>
         <input type="text" id="extraAddress" placeholder="참고항목">
+        
+        <!-- 성별 입력 부분 -->
+        <label for="gender">성별</label>
+        <input type="text" id="gender" name="gender" placeholder="남자 또는 여자를 입력하세요" required>
 
         <!-- 자기소개 입력 부분 -->
         <label for="introduction">자기소개</label>
-        <textarea id="introduction" name="introduction" required></textarea>
+        <textarea id="aboutMe" name="introduction" required></textarea>
 
         <!-- 가입하기 버튼 -->
         

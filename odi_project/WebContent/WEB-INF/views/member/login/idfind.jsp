@@ -23,7 +23,7 @@
     <br>
 
     <!-- 메인 컨텐츠 영역 -->
-    <main>
+   <main>
 
         <!-- 탭 컨테이너 -->
         <div class="tab-container">
@@ -36,7 +36,7 @@
         <div id="idContent" class="content active">
             <div class="form-group">
                 <label for="name">이름</label>
-                <input type="text" id="name">
+                <input type="text" id="memberName">
             </div>
             <div class="form-group">
                 <label for="email">이메일 주소</label>
@@ -46,7 +46,7 @@
             <div class="form-group">
                 <label for="verificationCode">인증번호 입력</label>
                 <input type="text" id="verificationCode">
-                <button onclick="nextStep('id')">다음</button>
+                <button onclick="window.location.href='idfindafter.htm'">다음</button>
             </div>
 
         </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="form-group">
                     <label for="confirmPassword">비밀번호 확인</label>
-                    <input type="password" id="confirmPassword">
+                    <input type="password" id="newPasswordCheck">
                 </div>
                 <button onclick="resetPassword()">재설정</button>
             </div>

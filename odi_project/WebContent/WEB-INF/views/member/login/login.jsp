@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
-    <link rel="stylesheet" href="WebContent/source/style/css/login.css">
+    <link rel="stylesheet" href="./source/style/css/login.css">
 </head>
 <body>
 
@@ -16,22 +16,22 @@
         <h3>반갑습니다. 로그인 하고 더 큰 혜택을 즐기세요!</h3>
     </div>
     <!-- 서버랑 post로 통신하고 /login-->
-    <form action="/login" method="post">
+    <form action="odi_project/insert.me" method="post">
 
         <div class="login-container">
             <div class="login-form">
                 <!-- 아이디 입력창 및 이미지 -->
                 <div class="login-input-container">
-                    <img src="img/login.png" alt="로그인 이미지">
+                    <img src="./source/style/img/loginimg/login.png" alt="로그인 이미지">
                     <!-- username으로 값 받기-->
-                    <input type="text" id="username" class="login-input" placeholder="아이디">
+                    <input type="text" id="memberId" class="login-input" placeholder="아이디">
                 </div>
                 <br>
                 <!-- 비밀번호 입력창 및 이미지 -->
                 <div class="login-input-container">
-                    <img src="img/pass.png" alt="비밀번호 이미지">
+                    <img src="./source/style/img/loginimg/pass.png" alt="비밀번호 이미지">
                     <!-- password으로 값 받기-->
-                    <input type="password" id="password" class="login-input" placeholder="비밀번호">
+                    <input type="password" id="memberPwd" class="login-input" placeholder="비밀번호">
                 </div>
                 <br>
                 <!-- 로그인 버튼 -->

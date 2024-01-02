@@ -1,40 +1,50 @@
 package odi_project.member.model.vo;
 
-import java.sql.Date;
 
-import lombok.Getter;
 
-@Getter
+import java.util.Date;
+
+import lombok.Builder;
+import lombok.Data;
+
+//@Getter
+//@Setter
+//@NoArgsConstructor  // ê¸°ë³¸ìƒì„±ì
+//@AllArgsConstructor // ë§¤ê°œë³€ìˆ˜ ìƒì„±ì
+//@ToString
+@Data
+@Builder
+/*	data ì–´ë…¸í…Œì´ì…˜ì€ ìœ„ì˜ ì–´ë…¸í…Œì´ì…˜ì„ í•œêº¼ë²ˆì— ì„¤ì •í•´ì£¼ëŠ” ìœ ìš©í•œ ì–´ë…¸íƒœì´ì…˜ì´ë‹¤.*/
 public class Member {
 	
 	/*
 	 *  CREATE TABLE MEMBER (
-        MEMBER_ID VARCHAR2(20) PRIMARY KEY,  -- ¾ÆÀÌµğ 
-      	MEMBER_PWD VARCHAR2(20) NOT NULL,   -- ºñ¹Ğ¹øÈ£
-    	EMAIL VARCHAR2(20) NOT NULL,        -- ÀÌ¸ŞÀÏ 
-    	MEMBER_NO VARCHAR2(20) NOT NULL,    -- ÁÖ¹Îµî·Ï¹øÈ£ 
-    	ADDRESS VARCHAR2(50) NOT NULL,      -- ÁÖ¼Ò
-    	GENDER VARCHAR2(1) NOT NULL,        -- ¼ºº°  M-³²ÀÚ, F-¿©ÀÚ 
-    	MEMBER_PROFILE BLOB,                -- ÇÁ·ÎÇÊ ÀÌ¹ÌÁö 
-    	ABOUT_ME VARCHAR2(500),             -- ÀÚ±â¼Ò°³ 
-    	MEMBER_ACCESS NUMBER DEFAULT 1,     -- È¸¿ø±ÇÈ¯ 0-°ü¸®ÀÚ, 1-È¸¿ø 
-    	CREATE_DATE DATE DEFAULT SYSDATE,   -- È¸¿ø°¡ÀÔÀÏ 
-    	STATUS VARCHAR2(1) DEFAULT 'Y');      -- È¸¿ø»èÁ¦¿©ºÎ DEFAULT :Y
+        MEMBER_ID VARCHAR2(20) PRIMARY KEY,  -- ì•„ì´ë”” 
+      	MEMBER_PWD VARCHAR2(20) NOT NULL,   -- ë¹„ë°€ë²ˆí˜¸
+    	EMAIL VARCHAR2(20) NOT NULL,        -- ì´ë©”ì¼ 
+    	MEMBER_NO VARCHAR2(20) NOT NULL,    -- ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ 
+    	ADDRESS VARCHAR2(50) NOT NULL,      -- ì£¼ì†Œ
+    	GENDER VARCHAR2(1) NOT NULL,        -- ì„±ë³„  M-ë‚¨ì, F-ì—¬ì 
+    	MEMBER_PROFILE BLOB,                -- í”„ë¡œí•„ ì´ë¯¸ì§€ 
+    	ABOUT_ME VARCHAR2(500),             -- ìê¸°ì†Œê°œ 
+    	MEMBER_ACCESS NUMBER DEFAULT 1,     -- íšŒì›ê¶Œí™˜ 0-ê´€ë¦¬ì, 1-íšŒì› 
+    	CREATE_DATE DATE DEFAULT SYSDATE,   -- íšŒì›ê°€ì…ì¼ 
+    	STATUS VARCHAR2(1) DEFAULT 'Y');      -- íšŒì›ì‚­ì œì—¬ë¶€ DEFAULT :Y
 	 * 
 	 * */
-	private String memberId;	// ¾ÆÀÌµğ
-	private String memberPwd;	//ºñ¹Ğ¹øÈ£
-	private String email;		//ÀÌ¸ŞÀÏ 
-	private String memberNo;	//ÁÖ¹Îµî·Ï¹øÈ£
-	private String address;		//ÁÖ¼Ò
-	private String gender;		//¼ºº°  M-³²ÀÚ, F-¿©ÀÚ 
-	private byte[] memberProfile;// ÇÁ·ÎÇÊ ÀÌ¹ÌÁö 
+	private String memberId;	// ì•„ì´ë””
+	private String memberPwd;	//ë¹„ë°€ë²ˆí˜¸
+	private String email;		//ì´ë©”ì¼
+	private String memberNo;	//ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸
+	private String address;		//ì£¼ì†Œ
+	private String gender;		//ì„±ë³„  M-ë‚¨ì, F-ì—¬ì 
+	private byte[] memberProfile;// í”„ë¡œí•„ ì´ë¯¸ì§€ 
 	private String aboutMe;		//
-	private int memberAccess;	// È¸¿ø±ÇÈ¯
-	private Date createDate;	//È¸¿ø°¡ÀÔÀÏ
-	private String status;		//È¸¿ø»èÁ¦¿©ºÎ
-	private String memberName;  // È¸¿øÀÌ¸§
-	private String phone; 		// ÇÚµåÆù
+	private int memberAccess;	// íšŒì›ê¶Œí™˜
+	private Date createDate;	//íšŒì›ê°€ì…ì¼
+	private String status;		//íšŒì›ì‚­ì œì—¬ë¶€
+	private String memberName;  // íšŒì›ì´ë¦„
+	private String phone; 		// í•¸ë“œí°
 	
 
 }

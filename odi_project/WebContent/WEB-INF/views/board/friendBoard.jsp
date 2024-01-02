@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마이페이지_채팅방</title>
+    <title>동행게시판_상세_완료</title>
 
     <!-- 파비콘 -->
     <link rel="shortcut icon" href="./images/tomorrow1.gif">
@@ -40,9 +40,9 @@
 
 
     <!-- basic css -->
-    <link rel="stylesheet" href="./css/basicTool.css">
+    <link rel="stylesheet" href="../../../source/style/css/ensun.css/basicTool.css">
     <!-- Board css -->
-    <link rel="stylesheet" href="./css/friendBoard.css">
+    <link rel="stylesheet" href="../../../source/style/css/ensun.css/friendBoard.css">
 
     <!--Google Fonts - 나눔고딕-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -58,7 +58,7 @@
   <header>
     <div class="inner">
       <a href="/" class="logo">
-        <img src="./images/odigaji_logo.png" alt="ODIGAJI" />
+        <img src="../../../source/style/img/jinimg/odigaji_logo.png" alt="ODIGAJI" />
       </a>
 
       <div class="sub-menu"> <!-- 로그인 마이페이지 찜 채팅-->

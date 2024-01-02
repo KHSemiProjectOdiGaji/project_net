@@ -16,7 +16,7 @@
         <h3>반갑습니다. 로그인 하고 더 큰 혜택을 즐기세요!</h3>
     </div>
     <!-- 서버랑 post로 통신하고 /login-->
-    <form action="odi_project/insert.me" method="post">
+    <form action="insert.me" method="post">
 
         <div class="login-container">
             <div class="login-form">

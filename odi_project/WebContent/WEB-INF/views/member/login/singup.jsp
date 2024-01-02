@@ -27,7 +27,7 @@
     <br><br>
 
     <!-- 회원가입 폼 -->
-    <form>
+    <form action="singup.me" method="post">
        <!-- 프로필 이미지 업로드 부분 -->
     <label for="profileImageLabel" id="profileImageLabel">
         <img id="profilePreview" alt="">

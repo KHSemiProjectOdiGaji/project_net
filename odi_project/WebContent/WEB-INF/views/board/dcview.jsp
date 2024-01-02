@@ -213,22 +213,22 @@
                             <label for="dinner2">양식</label>
                         </li>
                         <li>
-                            <input type="checkbox" name="dinnerCheck" id="dinner2">
-                            <label for="dinner2">중식</label>
+                            <input type="checkbox" name="dinnerCheck" id="dinner3">
+                            <label for="dinner3">중식</label>
                         </li>
                     </div>
                     <div class="dinnerdiv">
                         <li>
-                            <input type="checkbox" name="dinnerCheck" id="dinner3">
-                            <label for="dinner3">한식</label>
+                            <input type="checkbox" name="dinnerCheck" id="dinner4">
+                            <label for="dinner4">한식</label>
                         </li>
                         <li>
-                            <input type="checkbox" name="dinnerCheck" id="dinner4">
-                            <label for="dinner4">분식</label>
+                            <input type="checkbox" name="dinnerCheck" id="dinner5">
+                            <label for="dinner5">분식</label>
                         </li>
                         <li>
-                            <input type="checkbox" name="dinnerCheck" id="dinner4">
-                            <label for="dinner4">기타</label>
+                            <input type="checkbox" name="dinnerCheck" id="dinner6">
+                            <label for="dinner6">기타</label>
                         </li>
                     </div>
                 </ul>
@@ -385,7 +385,7 @@
             <option value="작성자">작성자</option>
         </select>
         <label for="keyword" id="search-label">
-            <button><img src="img/image 10.png"></button>
+            <button><img src="../../../source/style/img/jinimg/image 10.png"></button>
             <input type="text" name="keyword" id="keyword" placeholder="키워드를 입력하세요">
         </label>
     </div>
